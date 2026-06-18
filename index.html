@@ -98,11 +98,17 @@
 		}
 
 
-		summary {
+		summary,
+			summary * {
 		  cursor: pointer;
-			display: block; /* ensures full width is clickable *
 		}
 
+
+		summary::-webkit-details-marker {
+		  cursor: pointer;
+		}
+
+			
     </style>
 </head>
 
